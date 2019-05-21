@@ -1,6 +1,12 @@
+# Aviso
+Este projeto foi somente desenvolvido e postado por causa da disciplina de IA, nao temos a intecao de ficar com os creditos de ninguem, somente provar o funcionamento do GA
+
 # AsteroidsAI
 Tem que baixar o processing
 Link: https://processing.org/
+
+# Git do criador
+https://github.com/Code-Bullet/AsteroidsAI
 
 # Alterações feitas
 Comentado o asteroids o maximo possivel
