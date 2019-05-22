@@ -1,0 +1,128 @@
+#Verificar alterações até a geração 50
+
+#Baseado no original
+
+0 - Original
+
+1 - Mutacao -> 10
+
+2 - Populacao -> 10
+
+    Nao aprendeu a desviar, somente girava e atirava sem precisao
+    110 geracoes com score de maximo 10 -> Baixo efetivo
+
+3 - Populacao -> 300
+
+
+#baseado no 22
+
+#Criado um asteroid a mais 
+#Sumone de asteroid de um canto que nao vinha
+#Sumone de tamanho aleatorio
+
+    5 geracao -> Ja aprendeu que ficar girando e atirando o score aumenta mais 
+    10 geracao -> Girando e atirando aleatoriamente, movimentaca pouco a partir de uma posicao - score de 40
+    12 geracao -> Esta tentando acertar intencionalmente os asteroids
+    19 geracao -> Score a 48, nave aumento a precisam dos tiros em linhas para os asteroids
+    23 geracao -> Aprendeu a usar o bost e comecou a se movimentar muito, score de 53
+
+    22 minutos de teste
+
+    25 geracao -> score beirando o 60
+    32 geracao ->
+
+    35 minutos de teste
+
+    37 geracoes - Score diminuiu, melhoria em desviar
+    43 geracao -> Score diminuindo, dificuldade de aprender a desviar
+
+    50 geracoes -> precisoes dis tiros aumentou, porem voltou a se mover com rodopio e não estava mirando nos mais proximos
+    
+    finalizado em 59 minutos
+
+#Baseado no 22 - 1
+# + Mutacao -> 10
+
+    5 geracao -> Girando aleatoriamente e atirando
+    9 geracao -> Mirando intecionalmente nos asteroids
+    20 geracao -> Score a 30, funcionando que nem o 22 normal, porém com score abaixo
+
+    22 minutos de teste
+
+    25 geracao - Score se mantendo a 30
+    30 geracao - Score se mantendo a 30 ou abaixo
+    32 geracao - Score aumentou violentamente, 52
+
+    35 minutos de teste
+
+    35 geracao - Aprendeu a desviar do perigo de forma rudimentar
+    44 geracao - Nao é necessario desviar, mirando mais precisamente para eliminar os asteroids que chegam perto demais
+    46 geracao - Voltou a desviar, score aumentando, score de 90, utilizando os cantos da tela para fugir
+    50 geracao - Capacidade de disviar diminui, somente quanto a risco iminente de colisao, score a 48
+
+    finalizando o teste m 49 minutos
+
+
+#Baseado no 22 - 2
+# Populacao -> 10
+    
+    17 geracao -> Somente aprendeu a rodopiar e atirar, pouca impulsão para deviar
+
+    6 minutos de teste e ja esta na 20 geracao
+
+    10 minutos de teste, geracao 30
+
+    30 geracao -> Objeto não se importa de ser atingido
+
+    Apresenta desempenho inconsistente, scores variam muito
+
+    50 geracao -> Não houve muita aprendizagem, não tentava desviar e somente aprendeu a girar, ativar de leve o boost e a mira estava ficando mais refinada
+
+    Finaliza com 18 minutos de teste
+
+#Baseado no 22 - 3
+# Populacao -> 300
+
+    7 geracao -> Score acima de 50, aprendeu a girar e atirar, mira ruim ainda
+    8 geracao -> Mira aperfeicou, aumentou a precisao
+    11 geracao -> Score de mais de 150, precisa significativa em seus tiros a todas as distancias
+    14 geracao -> tentativa de desvio com o boost falhou
+    24 geracao -> não executa desvios, precisao esta baixa
+    26 geracao -> So esta girando, nao possui desvio, precisao boa
+    34 geracao -> Não a desvio, somente melhorou as precisao dos tiros
+    37 geracao -> Precisao aumentou, mas parou de mirar os mais proximos, score aumentou
+    42 geracao -> Permineceu o mesmo 
+
+    Stagnou desde a geracao 24
+
+    Unica coisa notavel foi o aumento da precisao, score sempre se mantem acima de 50 e ela é so morre se for pega por um ponto cego ou encuralada
+
+    Finalizado em 1:12 minutos
+
+#Baseado no 22 - 4
+# Aumentada a quantidade de asteroids para 14
+# Sumon de mais 4 
+
+    3 geracao -> Nave comecou a roda para tentar acerta
+    4 geracao -> Comecou a se desviar da morte de forma rudimentar
+    13 geracao -> perdeu a capacidade de desviar, so esta girando, precisao dos tiros estao ruim    
+    19 geracao -> Usando levemente o propusor, desvios de leve, score acima de 40
+    30 geracao -> Deviando com o boost + precisao esta boa
+    32 geracao -> não devia contato que nao for um perigo
+    39 geracao -> Manteve a capacidade desvio, tiros não tem muita precisa, score batendo sempre acima de 60 a 70
+    50 geracao -> Manteve o dito antes, score entre 80 a 90, melhora na precisao
+
+#Baseado no mais modificado
+#Adicionado + 2 tamanhods de meteoros
+#Aumentada a velocidade e distancia dos tiros
+#Diminuida a quantidade da populacao
+#10 meteoros randomicos de summon inicial
+#Respaw de 1 aleatorio
+#Velocidade da nave aumentada
+#Frame a 120
+#tamanho da tela aumentada
+#geracao comeca no 1
+#Aumentada a taxa de mutacao para 1
+#populacao de 10
+
+    Ficou parado apanhando sem disparar um unico tiro
